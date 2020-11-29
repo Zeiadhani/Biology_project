@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import Main from './components/main.js'
+import Viewer from './components/viewer.js'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export class App extends Component {
+	state = {page:'main'}
+	pages=(param)=>{
+		this.setState({page:param})
+	}
+	render() {
+		if(this.state.page==='main'){
+			return (
+				<div>
+					<Main activation={this.pages}/>
+				</div>
+			)
+	}	
+		else if(this.state.page==='viewer'){
+			return (
+				<div>
+					<Viewer activation={this.pages}/>
+				</div>
+			)
+		}	
+	}
 }
 
-export default App;
+export default App
