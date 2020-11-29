@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/biology/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/biology/static/js/main.20bd1e1e.chunk.js",
-    "main.js.map": "/biology/static/js/main.20bd1e1e.chunk.js.map",
-    "runtime-main.js": "/biology/static/js/runtime-main.c1def498.js",
-    "runtime-main.js.map": "/biology/static/js/runtime-main.c1def498.js.map",
-    "static/js/2.fbea82f1.chunk.js": "/biology/static/js/2.fbea82f1.chunk.js",
-    "static/js/2.fbea82f1.chunk.js.map": "/biology/static/js/2.fbea82f1.chunk.js.map",
-    "index.html": "/biology/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/biology/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.fbea82f1.chunk.js.LICENSE.txt": "/biology/static/js/2.fbea82f1.chunk.js.LICENSE.txt"
+    "main.css": "/Biology_project/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/Biology_project/static/js/main.20bd1e1e.chunk.js",
+    "main.js.map": "/Biology_project/static/js/main.20bd1e1e.chunk.js.map",
+    "runtime-main.js": "/Biology_project/static/js/runtime-main.89cf9381.js",
+    "runtime-main.js.map": "/Biology_project/static/js/runtime-main.89cf9381.js.map",
+    "static/js/2.fbea82f1.chunk.js": "/Biology_project/static/js/2.fbea82f1.chunk.js",
+    "static/js/2.fbea82f1.chunk.js.map": "/Biology_project/static/js/2.fbea82f1.chunk.js.map",
+    "index.html": "/Biology_project/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/Biology_project/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.fbea82f1.chunk.js.LICENSE.txt": "/Biology_project/static/js/2.fbea82f1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c1def498.js",
+    "static/js/runtime-main.89cf9381.js",
     "static/js/2.fbea82f1.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.20bd1e1e.chunk.js"
